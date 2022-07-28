@@ -258,16 +258,6 @@ int main(void)
 		display(time);
 		
 	}
-	for(uint8_t i=0;i<=9;i++)
-	{
-		for (uint8_t j=1;j>=6;j++)
-		{
-			display_unit(j,1);
-			display_number(i);
-			_delay_us(500);
-			display_unit(j,0);
-			
-		}
-	}
+	
 	
 }
